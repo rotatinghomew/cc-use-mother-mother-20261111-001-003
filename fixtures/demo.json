@@ -1,0 +1,23 @@
+{
+  "subject_id": "appointment_robot-synthetic",
+  "request_key": "appointment_robot-demo",
+  "payload": {
+    "referral_id": "r-1",
+    "run_key": "run-1",
+    "actions": [
+      {
+        "kind": "set",
+        "field": "patient",
+        "value": "synthetic"
+      },
+      {
+        "kind": "assert",
+        "field": "patient",
+        "value": "synthetic"
+      },
+      {
+        "kind": "receipt"
+      }
+    ]
+  }
+}
